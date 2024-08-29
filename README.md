@@ -47,10 +47,13 @@ The test cases for the `Todo` component cover the following scenarios:
 
 5. **Marking Todos as Completed**:
    - Tests that clicking a todo marks it as completed or uncompleted.
+  
+6. **Api call test**:
+   - Calls fetch with correct parameters when 'Add Todo' button is clicked.
 
 ## How to Run Tests
 
-To run the tests for the `Todo` component, use the following command:
+- To run the tests for the `Todo` component, use the following command:
 
 ```bash
 npm test
@@ -70,7 +73,8 @@ Todo-app/
 ├── README.md
 └── package.json
 
-## How to Clone and Run Locally
+##  How to Clone and Run Locally
+
 1. **Clone the Repository**:
 git clone https://github.com/yourusername/your-repo.git
 
